@@ -16,3 +16,9 @@ resource "random_pet" "names" {
 output "names" {
   value = random_pet.names.*.id
 }
+
+
+
+output "test" {
+  value = "this is a  test"
+}
